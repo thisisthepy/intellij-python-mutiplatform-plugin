@@ -15,7 +15,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-scripting-dependencies-maven")
 
     // coroutines dependency is required for this particular definition
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
 
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
